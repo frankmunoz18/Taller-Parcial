@@ -94,9 +94,9 @@ public class ventana extends javax.swing.JFrame {
         float dato2;
         float dato3;
         dato1 = Float.valueOf(a.getText());
-        dato1= misumador.a;
+        misumador.a=dato1;
         dato2 = Float.valueOf(b.getText());
-        dato2= misumador.b;
+        misumador.b=dato1;
         misumador.sumar();
         dato3=misumador.resultado;
         
